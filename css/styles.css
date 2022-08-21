@@ -1,18 +1,76 @@
 a {
   text-decoration: none;
 }
-.link a {
+
+.title {
+  color: black;
+}
+
+.nav-link {
   font-size: 14px;
+  font-weight: 500;
   text-decoration: none;
   color: black;
 }
-a[href="mailto:info@devstudio.com"] {
+.nav-link:hover {
+  color: #2196f3;
+}
+
+.internal-links .link {
   font-size: 14px;
+  font-weight: 500;
   text-decoration: none;
   color: black;
+}
+.internal-links .link:hover {
+  color: #2196f3;
+}
+
+/* a[href="mailto:info@devstudio.com"] {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+a[href="mailto:info@devstudio.com"].hover {
+  color: #2196f3;
 }
 a[href="tel:+48111111111"] {
   font-size: 14px;
   text-decoration: none;
   color: black;
+} */
+
+a.mail {
+  font-size: 14;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+a[href="mailto:info@devstudio.com"]:hover {
+  color: #2196f3;
+}
+a.telephone {
+  font-size: 14;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+a[href="tel:+48111111111"]:hover {
+  color: #2196f3;
+}
+
+.h1 {
+  color: white;
+}
+.schedule-head {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+table tr,
+table td {
+  padding: 10px;
+  border: 0px solid#2F303A;
 }
