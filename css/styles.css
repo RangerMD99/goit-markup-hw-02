@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+}
+.link a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+a[href="mailto:info@devstudio.com"] {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+a[href="tel:+48111111111"] {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
